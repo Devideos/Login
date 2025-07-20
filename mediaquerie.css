@@ -39,7 +39,7 @@
   }
 
   .div2 h2 {
-    font-size: 26px;
+    font-size: 28px;
     width: 90%;
   }
 
@@ -49,6 +49,20 @@
     margin: 20px auto 0 auto;
     text-align: center;
   }
+
+  form::before {
+  content: '';
+  position: absolute;
+  background-image: url(assets/code.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0; /* Agora fica atrás de todo conteúdo */
+  width: 120px;
+  height: 120px;
+  opacity: 0.15;
+  bottom: -45px;   /* Abaixo do botão */
+  left: 350px;      /* Mais à esquerda */
 }
 
 }
