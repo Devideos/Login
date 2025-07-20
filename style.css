@@ -8,6 +8,7 @@
 }
 
 body {
+  max-width: 100vw;
   overflow-x: hidden; /* Evita rolagem horizontal */
   --cor-div2: #0056FB;
   --cor-div2-texto: #FFFFFF;

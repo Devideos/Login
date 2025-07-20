@@ -1,10 +1,5 @@
 
 @media (max-width: 780px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
   section {
     display: flex;
     flex-direction: column;
