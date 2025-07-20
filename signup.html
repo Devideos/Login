@@ -12,7 +12,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
 
-  <title>Login</title>
+  <title>Cadastro</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mediaquerie.css">
 </head>
@@ -22,13 +22,20 @@
 
     <!-- PRIMEIRA COLUNA -->
     <div class="div1">
-      <h1>Minha Conta</h1>
+      <h1>Nova Conta</h1>
       <form>
-        <input type="text" placeholder="Digite seu Email" required>
+        <input type="text" placeholder="Digite seu Nome" required>
+        <input type="email" placeholder="Digite seu Email" required>
         <input type="password" placeholder="Digite sua Senha" required>
-        <button type="submit">Acessar</button>
+
+        <div class="marcador">
+            <input type="radio" name="termos" id="termos" required>
+            <span for="termos">Aceito os termos de uso</span>
+        </div>
+
+        <button type="submit">Nova conta</button>
       </form>
-      <p>Novo por aqui? <a href="signup.html">Cadastre-se</a></p>
+      <p>já possui uma conta? <a href="index.html">Faça login</a></p>
     </div>
 
     <!-- SEGUNDA COLUNA -->
