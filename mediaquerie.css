@@ -1,0 +1,18 @@
+
+@media (max-width: 780px) {
+  section {
+    grid-template-columns: 1fr; /* Muda para uma coluna em telas menores */
+    grid-template-rows: auto auto; /* Ajusta as linhas para auto */
+  }
+
+  .div1 {
+    width: 85%;
+    padding: 24px 0;
+    margin-left: 8%;
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    margin-bottom: 20%;
+    margin-top: 20%;
+  }
+
+}
+
