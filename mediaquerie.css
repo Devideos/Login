@@ -50,20 +50,5 @@
     text-align: center;
   }
 
-  form::before {
-  content: '';
-  position: absolute;
-  background-image: url(assets/code.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 0; /* Agora fica atrás de todo conteúdo */
-  width: 100px;
-  height: 100px;
-  opacity: 0.15;
-  bottom: -35px;   /* Abaixo do botão */
-  left: 360px;      /* Mais à esquerda */
-  }
-
 }
 
