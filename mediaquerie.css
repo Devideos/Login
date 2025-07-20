@@ -13,6 +13,23 @@
     margin-bottom: 20%;
     margin-top: 20%;
   }
+  
+      .div2 h2 {
+    font-size: 1.6em;        /* Aumenta o tamanho da fonte */
+    font-weight: bold;       /* Deixa o texto em negrito */
+    margin-bottom: 16px;     /* Espaço abaixo do título */
+    text-align: center;      /* Centraliza o texto */
+    letter-spacing: 1px;     /* Espaçamento entre letras */
+  }
+
+  .div2 p {
+    font-size: 1.1em;      /* Aumenta o tamanho da fonte */
+    line-height: 1.7;      /* Espaçamento entre linhas para melhor leitura */
+    margin-bottom: 14px;   /* Espaço abaixo de cada parágrafo */
+    text-align: left;      /* Alinha o texto à esquerda */
+    max-width: 400px;
+    padding: 0 14px;
+  }
 
 }
 
